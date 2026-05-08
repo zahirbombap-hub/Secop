@@ -4,6 +4,7 @@ import { cors } from "hono/cors";
 import { logger } from "hono/logger";
 
 import data from "./data.json";
+import { renderDashboardPage } from "./dashboard";
 import type { ApiResponse, Base, DataFile, Pregunta } from "./types";
 
 type JsonStatus = 200 | 404 | 500;
@@ -125,6 +126,10 @@ app.get("/", (c) => {
   };
 
   return jsonResponse(c, response);
+});
+
+app.get("/dashboard", (c) => {
+  return c.html(renderDashboardPage(dataFile.meta));
 });
 
 app.get("/api/bases", (c) => {
