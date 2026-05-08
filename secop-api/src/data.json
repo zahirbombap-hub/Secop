@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "fuente": "datos.gov.co",
+    "ultima_actualizacion": "2025-05-01"
+  },
+  "bases": [
+    {
+      "id": "bd1",
+      "nombre": "SECOP II — Contratos electronicos",
+      "dataset_id": "jbjy-vk9h",
+      "url_fuente": "https://www.datos.gov.co/resource/jbjy-vk9h",
+      "total_preguntas": 12,
+      "preguntas": [
+        {
+          "num": 1,
+          "categoria": "estructura",
+          "pregunta": "¿Cuantas columnas principales tiene la base de contratos electronicos?",
+          "respuesta": "68 columnas",
+          "valor_numerico": 68,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 2,
+          "categoria": "cobertura",
+          "pregunta": "¿Cuantas entidades compradoras distintas aparecen en la base?",
+          "respuesta": "6.412 entidades",
+          "valor_numerico": 6412,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 3,
+          "categoria": "estructura",
+          "pregunta": "¿Cual es la cantidad total de registros de la base de datos?",
+          "respuesta": "1.245.832 registros",
+          "valor_numerico": 1245832,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 4,
+          "categoria": "territorio",
+          "pregunta": "¿Que territorio concentra el mayor numero de contratos publicados?",
+          "respuesta": "Bogota, D.C.",
+          "valor_numerico": null,
+          "tipo_respuesta": "texto"
+        },
+        {
+          "num": 5,
+          "categoria": "fechas",
+          "pregunta": "¿Cual es la fecha mas antigua de publicacion registrada?",
+          "respuesta": "2017-03-15",
+          "valor_numerico": null,
+          "tipo_respuesta": "fecha"
+        },
+        {
+          "num": 6,
+          "categoria": "tiempos",
+          "pregunta": "¿Cual es el tiempo promedio entre apertura y adjudicacion del proceso?",
+          "respuesta": "35 dias",
+          "valor_numerico": 35,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 7,
+          "categoria": "valores",
+          "pregunta": "¿Cual es el valor total contratado reportado en la base?",
+          "respuesta": "COP 428,7 billones",
+          "valor_numerico": 428700000000,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 8,
+          "categoria": "modalidades",
+          "pregunta": "¿Cuales son las modalidades de seleccion mas frecuentes?",
+          "respuesta": "Licitacion publica, seleccion abreviada y minima cuantia",
+          "valor_numerico": null,
+          "tipo_respuesta": "lista"
+        },
+        {
+          "num": 9,
+          "categoria": "proveedores",
+          "pregunta": "¿Cuantos proveedores distintos han sido adjudicatarios en la base?",
+          "respuesta": "182.945 proveedores",
+          "valor_numerico": 182945,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 10,
+          "categoria": "fechas",
+          "pregunta": "¿En que mes se registraron mas contratos publicados durante 2024?",
+          "respuesta": "Noviembre de 2024",
+          "valor_numerico": null,
+          "tipo_respuesta": "fecha"
+        },
+        {
+          "num": 11,
+          "categoria": "analitica",
+          "pregunta": "¿Que porcentaje de contratos corresponde a modalidades competitivas?",
+          "respuesta": "61,3 %",
+          "valor_numerico": 61.3,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 12,
+          "categoria": "documentos",
+          "pregunta": "¿Cual es el formato de archivo mas comun referenciado por los contratos?",
+          "respuesta": "PDF",
+          "valor_numerico": null,
+          "tipo_respuesta": "texto"
+        }
+      ]
+    },
+    {
+      "id": "bd2",
+      "nombre": "SECOP II — Documentos electronicos",
+      "dataset_id": "dmgg-8hin",
+      "url_fuente": "https://www.datos.gov.co/resource/dmgg-8hin",
+      "total_preguntas": 12,
+      "preguntas": [
+        {
+          "num": 13,
+          "categoria": "estructura",
+          "pregunta": "¿Cuantos documentos electronicos contiene la base?",
+          "respuesta": "8.907.114 documentos",
+          "valor_numerico": 8907114,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 14,
+          "categoria": "documentos",
+          "pregunta": "¿Que tipo documental aparece con mayor frecuencia?",
+          "respuesta": "Pliego de condiciones",
+          "valor_numerico": null,
+          "tipo_respuesta": "texto"
+        },
+        {
+          "num": 15,
+          "categoria": "fechas",
+          "pregunta": "¿Cual es la fecha mas reciente de actualizacion observada en la base?",
+          "respuesta": "2025-04-30",
+          "valor_numerico": null,
+          "tipo_respuesta": "fecha"
+        },
+        {
+          "num": 16,
+          "categoria": "formatos",
+          "pregunta": "¿Que extensiones de archivo son las mas frecuentes?",
+          "respuesta": "pdf, xlsx y zip",
+          "valor_numerico": null,
+          "tipo_respuesta": "lista"
+        },
+        {
+          "num": 17,
+          "categoria": "analitica",
+          "pregunta": "¿Cuantos documentos, en promedio, se asocian a cada proceso de contratacion?",
+          "respuesta": "7 documentos por proceso",
+          "valor_numerico": 7,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 18,
+          "categoria": "cumplimiento",
+          "pregunta": "¿Que porcentaje de documentos fue publicado dentro del primer dia del proceso?",
+          "respuesta": "72,4 %",
+          "valor_numerico": 72.4,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 19,
+          "categoria": "territorio",
+          "pregunta": "¿Que departamento concentra el mayor volumen de anexos publicados?",
+          "respuesta": "Antioquia",
+          "valor_numerico": null,
+          "tipo_respuesta": "texto"
+        },
+        {
+          "num": 20,
+          "categoria": "estructura",
+          "pregunta": "¿Cuantos procesos unicos estan representados por los documentos cargados?",
+          "respuesta": "1.271.500 procesos",
+          "valor_numerico": 1271500,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 21,
+          "categoria": "fechas",
+          "pregunta": "¿En que año inicia la serie historica de documentos del dataset?",
+          "respuesta": "2016-01-04",
+          "valor_numerico": null,
+          "tipo_respuesta": "fecha"
+        },
+        {
+          "num": 22,
+          "categoria": "documentos",
+          "pregunta": "¿Cual es el nombre del documento mas repetido en la base?",
+          "respuesta": "Estudios previos",
+          "valor_numerico": null,
+          "tipo_respuesta": "texto"
+        },
+        {
+          "num": 23,
+          "categoria": "analitica",
+          "pregunta": "¿Cuantos megabytes ocupa, en promedio, cada documento cargado?",
+          "respuesta": "2,6 MB",
+          "valor_numerico": 2.6,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 24,
+          "categoria": "cumplimiento",
+          "pregunta": "¿Cuales son los tres tipos de documentos obligatorios mas visibles en los procesos de licitacion?",
+          "respuesta": "Pliego de condiciones, estudios previos y observaciones al pliego",
+          "valor_numerico": null,
+          "tipo_respuesta": "lista"
+        }
+      ]
+    },
+    {
+      "id": "bd3",
+      "nombre": "SECOP II — Proveedores",
+      "dataset_id": "rpmr-utcd",
+      "url_fuente": "https://www.datos.gov.co/resource/rpmr-utcd",
+      "total_preguntas": 8,
+      "preguntas": [
+        {
+          "num": 25,
+          "categoria": "estructura",
+          "pregunta": "¿Cuantos proveedores unicos estan registrados en la base?",
+          "respuesta": "356.418 proveedores",
+          "valor_numerico": 356418,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 26,
+          "categoria": "territorio",
+          "pregunta": "¿En que ciudad se concentra el mayor numero de proveedores registrados?",
+          "respuesta": "Bogota, D.C.",
+          "valor_numerico": null,
+          "tipo_respuesta": "texto"
+        },
+        {
+          "num": 27,
+          "categoria": "tipologia",
+          "pregunta": "¿Que tipo de organizacion aparece con mayor frecuencia?",
+          "respuesta": "Sociedad por Acciones Simplificada (SAS)",
+          "valor_numerico": null,
+          "tipo_respuesta": "texto"
+        },
+        {
+          "num": 28,
+          "categoria": "analitica",
+          "pregunta": "¿Que porcentaje de proveedores pertenece al segmento MiPyME?",
+          "respuesta": "58,9 %",
+          "valor_numerico": 58.9,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 29,
+          "categoria": "fechas",
+          "pregunta": "¿Cual es la fecha de registro mas antigua encontrada para un proveedor activo?",
+          "respuesta": "2015-07-01",
+          "valor_numerico": null,
+          "tipo_respuesta": "fecha"
+        },
+        {
+          "num": 30,
+          "categoria": "sectores",
+          "pregunta": "¿Cuales son los sectores economicos con mayor participacion en la base?",
+          "respuesta": "Servicios profesionales, tecnologia y construccion",
+          "valor_numerico": null,
+          "tipo_respuesta": "lista"
+        },
+        {
+          "num": 31,
+          "categoria": "cumplimiento",
+          "pregunta": "¿Cuantos proveedores presentan informacion de contacto completa?",
+          "respuesta": "301.772 proveedores",
+          "valor_numerico": 301772,
+          "tipo_respuesta": "numero"
+        },
+        {
+          "num": 32,
+          "categoria": "estructura",
+          "pregunta": "¿Cuantos proveedores tienen al menos una adjudicacion registrada en SECOP II?",
+          "respuesta": "149.884 proveedores",
+          "valor_numerico": 149884,
+          "tipo_respuesta": "numero"
+        }
+      ]
+    }
+  ]
+}
