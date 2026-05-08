@@ -1,0 +1,9 @@
+# Dependencias instaladas localmente
+node_modules/
+
+# Archivos locales de Cloudflare Wrangler
+.wrangler/
+
+# Salidas comunes de build y logs
+dist/
+*.log

@@ -38,7 +38,7 @@ interface StatsResponse {
   preguntas_por_base: Record<string, number>;
 }
 
-const dataFile: DataFile = data;
+const dataFile = data as DataFile;
 const app = new Hono();
 
 const applyCommonHeaders = (c: Context): void => {
